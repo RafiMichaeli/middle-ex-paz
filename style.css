@@ -17,14 +17,13 @@ position: relative;
 }
 
 .column-right, .column-middle ,.column-left{
-    display: inline-block;
+    display: block;
     position: relative;
     float: right;
+    margin: 4px;
 }
-
-
 img{
-    display: inline-block;
+    display: block;
     float:right;
     position: relative;
 }
