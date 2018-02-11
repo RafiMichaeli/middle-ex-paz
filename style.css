@@ -20,10 +20,30 @@ position: relative;
     display: block;
     position: relative;
     float: right;
+}
+.column-middle{
     margin: 4px;
 }
-img{
+.column-right{
+    margin: 0px 0px 0px 6px;
+}
+.column-left{
+    margin: 0px 6px 0px 0px;
+}
+.column-middle{
+    margin : 0px 6px 0px 6px;
+}
+.link-img{
+    position: relative;
+    display: inline;
+}
+.img-row{
     display: block;
     float:right;
     position: relative;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
