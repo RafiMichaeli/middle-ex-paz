@@ -47,3 +47,10 @@ position: relative;
     clear: both;
     display: table;
 }
+.overlay-img {
+    position: absolute;
+    display: block;
+    top: 50px;
+right: 24px;
+
+}
