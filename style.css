@@ -45,11 +45,28 @@ position: relative;
     color: rgb(240, 240, 240);
     font-size: 80%;
 }
+.floating-text-row2 {
+    position: absolute;
+    display: block;
+    top: 0px;
+    margin: 8px;
+    padding: 3px;
+    font-weight: bold;
+    font-size: 80%;
+    right: 15px;
+    color: rgb(120, 120,120)
+}
 .overlay-link-row2{
     position: absolute;
     display: block;
     top: 180px;
     right: 164px;
+}
+.overlay-link-row2-map{
+    position: absolute;
+    display: block;
+    top: 50px;
+    right: 25px;
 }
 .left-txt-link{
     text-align: left;
@@ -73,5 +90,11 @@ position: relative;
     display: block;
     top: 50px;
     right: 24px;
+}
+.overlay-img-map {
+    position: absolute;
+    display: block;
+    top: 40px;
+    right: 190px;
 }
 
