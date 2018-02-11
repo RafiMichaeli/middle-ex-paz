@@ -53,3 +53,9 @@ position: relative;
     top: 50px;
     right: 24px;
 }
+.floating-text {
+    position: absolute;
+    display: block;
+    top: 50px;
+    right: 24px;
+}
