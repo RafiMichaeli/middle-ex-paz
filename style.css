@@ -80,8 +80,13 @@ margin-top: 10px;
     top: 50px;
     right: 25px;
 }
-.left-txt-link{
-    text-align: left;
+.left-txt-link > a {
+    text-align: inherit;
+    text-decoration: unset;
+    color: rgb(240, 240, 240);
+}
+.left-txt-link {
+    float: left;
 }
 .link-img{
     position: relative;
@@ -129,3 +134,16 @@ footer{
     position: absolute;
     top: 35px;
 }
+.footer-links a {
+    text-decoration: unset;
+    color: rgb(240, 240, 240);
+    align-content: center;
+}
+.footer-links{
+    line-height: 50px;
+    margin-right: 10px;
+    color: rgb(240, 240, 240);
+}
+/*#fb-logo{
+    margin-top: 5px;
+}*/
