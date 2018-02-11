@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial;
 }
 main, header ,footer{
     width: 900px;
@@ -33,6 +34,20 @@ position: relative;
 .column-middle{
     margin : 0px 6px 0px 6px;
 }
+.floating-text {
+    position: absolute;
+    display: block;
+    top: 220px;
+    margin: 10px;
+    padding: 3px;
+    background-color:rgba(120, 120, 120, 0.8);
+    font-weight: bold;
+    color: white;
+    font-size: 80%;
+}
+.left-txt-link{
+    text-align: left;
+}
 .link-img{
     position: relative;
     display: inline;
@@ -48,12 +63,6 @@ position: relative;
     display: table;
 }
 .overlay-img {
-    position: absolute;
-    display: block;
-    top: 50px;
-    right: 24px;
-}
-.floating-text {
     position: absolute;
     display: block;
     top: 50px;
