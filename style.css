@@ -11,21 +11,18 @@ main, header ,footer{
 }
 .row{
 height: 355px;
+width: 900px;
 display: block;
 position: relative;
 }
 
-.column {
-    display: block;
+.column-right, .column-middle ,.column-left{
+    display: inline-block;
     position: relative;
     float: right;
 }
 
-.column-middle {
-    display:inline-block;
-    position: relative;
-    float: right; 
-}
+
 img{
     display: inline-block;
     float:right;
