@@ -79,6 +79,8 @@ margin-top: 10px;
     display: block;
     top: 50px;
     right: 25px;
+    text-decoration: unset;
+    color: rgb(120, 120,120)
 }
 .left-txt-link > a {
     text-align: inherit;
