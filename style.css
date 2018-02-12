@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: Arial;
 }
+body{
+    margin: auto;
+}
 .container-area {
     width: 900px;
     margin: auto;
@@ -145,7 +148,6 @@ header{
 footer{
     height: 50px;
     background: grey;
-    width: 100%;
     position: fixed;
     bottom: 0px;
 }
@@ -163,6 +165,7 @@ footer{
     line-height: 50px;
     margin: 0px 20px 0px 20px;
     color: rgb(240, 240, 240);
+    width: 900px;
 }
 #fb-logo{
     margin-top: 5px;
