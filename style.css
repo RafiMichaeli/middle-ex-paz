@@ -253,7 +253,12 @@ footer{
     margin-top: 20px;
     float: left;
 }
-.search form{
-    line-height: 15px;
-    text-align: center;
+.search form img{
+    position: relative;
+    top: 4px;
+    right: -4px;
+}
+.search input{
+    border-radius: 0px 10px 0px 0px;
+
 }
