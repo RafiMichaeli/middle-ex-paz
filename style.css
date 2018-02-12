@@ -180,10 +180,32 @@ footer{
     display: inline-block;
     color: white;
     text-align: center;
-    padding-right: 14px;
+    padding-right: 5px;
     text-decoration: none;
 }
 .menu ul{
     padding-right: 100px;
     padding-top: 60px;
+}
+.dropdown {
+    display: inline-block;
+    display: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content{
+    position: absolute;
+    display: inline-block;
+    float: right;
+    display: none;
+    z-index: 100;
+}
+.dropdown-content a{
+    color: red;
+    padding: 2px 2px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    border: navy;
 }
