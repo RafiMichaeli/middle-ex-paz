@@ -94,8 +94,9 @@ margin-top: 30px;
     right: 164px;
 }
 .overlay-link-row2 a{
-    text-decoration: unset;
-    color: rgb(120, 120,120)  
+    text-decoration: underline;
+    color: #72716d;
+    font-size: 13px; 
 }
 .overlay-link-row2 a:hover{
     text-decoration: underline;
@@ -108,8 +109,9 @@ margin-top: 30px;
     right: 25px;
 }
 .overlay-link-row2-map a{
-    text-decoration: unset;
-    color: rgb(120, 120,120)
+    text-decoration: underline;
+    color: #72716d;
+    font-size: 13px;
 }
 .overlay-link-row2-map a:hover{
     text-decoration: underline;
@@ -117,8 +119,13 @@ margin-top: 30px;
 }
 .left-txt-link > a {
     text-align: inherit;
-    text-decoration: none;
-    color: rgb(240, 240, 240);
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.left-txt-link:hover > a {
+    text-align: inherit;
+    text-decoration: underline;
+    color: blue;
 }
 .left-txt-link {
     float: left;
@@ -193,7 +200,7 @@ footer{
 }
 .menu li{
        float: right;
-       padding: 25px 12px 0px 10px;
+       padding: 25px 8px 0px 8px;
 }
 .menu li{
     display: inline-block;
@@ -208,6 +215,10 @@ footer{
 }
 .menu{
     height: 105px;
+}
+.menu > ul > img{
+    float: right;
+    margin: 24px 0 0 0;
 }
 .dropdown {
     display: inline-block;
@@ -227,7 +238,7 @@ footer{
 }
 .dropdown li{
     color: white;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
     display: block;
     text-align: right;
@@ -263,5 +274,10 @@ footer{
 }
 .search input{
     border-radius: 0px 10px 0px 0px;
-
+}
+.search label{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
 }
