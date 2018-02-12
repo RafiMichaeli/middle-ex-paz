@@ -89,6 +89,10 @@ margin-top: 10px;
 }
 .left-txt-link {
     float: left;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 200px;
 }
 .link-img{
     position: relative;
