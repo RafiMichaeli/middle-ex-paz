@@ -250,5 +250,10 @@ footer{
 }
 .search{
     display: block;
-    position: absolute;
+    margin-top: 20px;
+    float: left;
+}
+.search form{
+    line-height: 15px;
+    text-align: center;
 }
