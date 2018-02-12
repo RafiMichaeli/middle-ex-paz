@@ -299,4 +299,5 @@ footer{
     color: blue;
     text-decoration: underline;
     margin-left: 20px;
+    cursor: pointer;
 }
