@@ -247,5 +247,8 @@ footer{
     background-color: #f1f1f1;
     color: lightskyblue;
     text-decoration: underline;
-
+}
+.search{
+    display: block;
+    position: absolute;
 }
