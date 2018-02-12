@@ -74,13 +74,27 @@ margin-top: 10px;
     top: 180px;
     right: 164px;
 }
+.overlay-link-row2 a{
+    text-decoration: unset;
+    color: rgb(120, 120,120)  
+}
+.overlay-link-row2 a:hover{
+    text-decoration: underline;
+    color: blue;
+}
 .overlay-link-row2-map{
     position: absolute;
     display: block;
     top: 50px;
     right: 25px;
+}
+.overlay-link-row2-map a{
     text-decoration: unset;
     color: rgb(120, 120,120)
+}
+.overlay-link-row2-map a:hover{
+    text-decoration: underline;
+    color: blue;
 }
 .left-txt-link > a {
     text-align: inherit;
