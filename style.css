@@ -9,7 +9,7 @@
 body{
     margin: auto;
 }
-.container-area {
+.main-area {
     width: 900px;
     margin: auto;
 }
@@ -162,10 +162,11 @@ header{
     width: 100%;
 }
 footer{
-    height: 50px;
-    background: grey;
+    height: 40px;
+    background: gray;
+    width: 100%;
     position: fixed;
-    bottom: 0px;
+    bottom: 0px
 }
 .logo{
     display: block;
@@ -178,6 +179,8 @@ footer{
     align-content: center;
 }
 .footer-links{
+    position: fixed;
+    bottom: 0px;
     line-height: 50px;
     margin: 0px 20px 0px 20px;
     color: rgb(240, 240, 240);
