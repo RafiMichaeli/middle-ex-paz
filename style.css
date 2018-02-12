@@ -101,7 +101,7 @@ margin-top: 10px;
 }
 .left-txt-link > a {
     text-align: inherit;
-    text-decoration: unset;
+    text-decoration: none;
     color: rgb(240, 240, 240);
 }
 .left-txt-link {
@@ -154,7 +154,7 @@ footer{
 .logo{
     display: block;
     position: absolute;
-    top: 35px;
+    top: 30px;
 }
 .footer-links a {
     text-decoration: unset;
@@ -171,4 +171,19 @@ footer{
     margin-top: 5px;
     margin-left: 5px;
     float: right;
+}
+.menu li{
+       float: right;
+       margin: 10px;
+}
+.menu li{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding-right: 14px;
+    text-decoration: none;
+}
+.menu ul{
+    padding-right: 100px;
+    padding-top: 60px;
 }
